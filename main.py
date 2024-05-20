@@ -12,21 +12,36 @@ print('Bro arrived on the convinient store')
 
 # Percabangan
 import random
-storeluck = random.randint(1,2)
-milkluck = random.randint(1,2)
-eggluck = random.randint(1,2)
 
-if storeluck > 1 :
+storeluck = random.randint(0, 1)
+milkluck = random.randint(0, 1)
+eggluck = random.randint(0, 1)
+lucky = 0
+
+if storeluck > 0:
+    lucky = storeluck
+    if milkluck > 0:
+        lucky = lucky + milkluck
+        if eggluck > 0:
+            luck = lucky + eggluck
+    if eggluck > 0:
+        lucky = lucky + eggluck
+else:
+    lucky = 0
+
+lucky = storeluck + milkluck + eggluck * 33.333;
+
+if storeluck > 0:
     print('Enter the store')
-    if milkluck > 1 :
+    if milkluck > 0:
         print('put 1 bottle of milk')
-        if eggluck > 1 :
+        if eggluck > 0:
             print('put 6 eggs')
             print('bro went home and told mumma he got milk and eggs')
             print('mumma : "thats my boy"')
         else:
             print('I just got milk')
-    elif eggluck > 1 :
+    elif eggluck > 0:
         print('put 6 eggs')
         print('I just got 6 eggs')
     else:
@@ -37,3 +52,4 @@ else:
     print('bro : "the store is closed"')
     print('mumma : "get your ass off"')
 
+print(f"your luck is {lucky}%")
