@@ -50,7 +50,7 @@ if storeluck > 0:
         print('I just got 6 eggs')
     else:
         print('bro : "the store is open but I got nothing"')
-        print('mumma : "get your ass off"')
+        print('mumma : "Get your ass off"')
 else:
     print('Go home')
     print('bro : "the store is closed"')

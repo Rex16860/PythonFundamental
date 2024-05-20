@@ -11,4 +11,4 @@ for pushUp in range(pushUp,target + 1) :
         continue
     print(f'current push-up : {pushUp}')
 
-print('Well done')
+print('Well Done')
