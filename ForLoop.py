@@ -2,7 +2,7 @@
 For Loop Push-up Program
 """
 
-print('Bro : "gotta push-up 10 times')
+print('Bro : "Gotta push-up 10 times')
 pushUp = 0
 target = 10
 
