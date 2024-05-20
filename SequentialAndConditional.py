@@ -56,4 +56,4 @@ else:
     print('bro : "the store is closed"')
     print('mumma : "get your ass off"')
 
-print(f"your luck is {lucky}%")
+print(f"your Luck is {lucky}%")
