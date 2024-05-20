@@ -33,7 +33,7 @@ if storeluck > 1 :
         print('bro : "the store is open but I got nothing"')
         print('mumma : "get your ass off"')
 else:
-    print('go home')
+    print('Go home')
     print('bro : "the store is closed"')
     print('mumma : "get your ass off"')
 
