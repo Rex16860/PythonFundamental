@@ -11,6 +11,7 @@ print('Bro : "Gotta go" ')
 print('Bro arrived on the convinient store')
 
 # Percabangan
+
 import random
 
 storeluck = random.randint(0, 1)
@@ -29,7 +30,10 @@ if storeluck > 0:
 else:
     lucky = 0
 
-lucky = storeluck + milkluck + eggluck * 33.333;
+lucky = (storeluck + milkluck + eggluck) * 33
+
+if lucky > 0:
+    lucky = lucky + 1
 
 if storeluck > 0:
     print('Enter the store')
