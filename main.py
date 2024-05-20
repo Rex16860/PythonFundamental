@@ -30,7 +30,7 @@ if storeluck > 0:
 else:
     lucky = 0
 
-lucky = (storeluck + milkluck + eggluck) * 33
+lucky = lucky * 33
 
 if lucky > 0:
     lucky = lucky + 1
