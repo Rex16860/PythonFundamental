@@ -2,5 +2,5 @@
 Variable
 """
 
-x = 8
+x = 9
 greeting = "Hello"

@@ -3,4 +3,4 @@ Case
 """
 
 string = "I'm string"
-String = "no, I'm the string"
+String = "No, I'm the string"
