@@ -34,3 +34,7 @@ which --Can have\\multiple lines\\
 of string--"""
 # print(messy)
 print(messy.replace('\\', '').replace('#@', '').replace('--', ''))
+
+fruit = "Apple"
+print(fruit[0], fruit[1], fruit[1], fruit[3], fruit[len(fruit) - 1])
+
