@@ -30,7 +30,7 @@ n = 365 / 12
 print(f'the days left are {n: .10f}')
 
 p1 = 'python'
-p2 = 'older'
+p2 = 'Older'
 
 print(f"""This is a docstring that is uses {p1} 3.12 and\\
 can't be used for {p2} versions of {p1}""".replace('\\', '').upper())
