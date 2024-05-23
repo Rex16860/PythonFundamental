@@ -1,4 +1,4 @@
-greet = "Hello World"
+greet = "hello World"
 
 # Slicing
 

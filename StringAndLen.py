@@ -5,7 +5,7 @@ orange = 'orange'
 print(rose, violet, orange, sep=", ")
 print(rose, violet, orange, end="! ")
 
-print("thi's 'quote' inside a string")
+print("this is 'quote' inside a string")
 
 lower = 'hello world'
 upper = 'HELLO WORLD'
