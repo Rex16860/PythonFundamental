@@ -30,7 +30,7 @@ mystring = 'a a a i I i u u u'
 print(mystring.count('I'))
 
 messy = """\\Please #@clean up-- #@This messy #@Docstring 
-which --can have\\multiple lines\\
+which --Can have\\multiple lines\\
 of string--"""
 # print(messy)
 print(messy.replace('\\', '').replace('#@', '').replace('--', ''))
