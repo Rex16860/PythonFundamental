@@ -36,4 +36,3 @@ while pushUp < energy:
 
 print(f'ur push-up is {pushUp}')
 """
-
