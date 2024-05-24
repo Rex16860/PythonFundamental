@@ -1,5 +1,5 @@
 # E1
-toys = {"robot": "$40.0", "car": "$25", "ironman": "$12"}
+toys = {"robot": "$40.0", "car": "$25", "Ironman": "$12"}
 
 v = list(toys.values())[0][1:]
 v2 = list(toys.values())[1][1:]
