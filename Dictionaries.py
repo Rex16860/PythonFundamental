@@ -10,7 +10,7 @@ weapons = {'Sniper': "$399", 'Pistol': "$100"}
 d1.update(weapons)
 d1["a"] = 120
 d1["d"] = 320
-print(d1)
+print(f'here {d1}')
 
 d1.pop('a')
 print((d1))

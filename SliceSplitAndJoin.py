@@ -60,5 +60,4 @@ print(" ".join(x))
 print(" ".join(v))
 
 print(paid.split('$'))
-print(paid.split('$')[1])
-
+print(paid.split('$')[0])
