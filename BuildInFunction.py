@@ -28,4 +28,4 @@ print(nData)
 cleanData = sorted([abs(k) for k in [int(i) for i in data]])[2:][::-1]
 print(cleanData)
 print(sorted([abs(k) for k in [int(i) for i in data]])[2:][::-1])
-print('The top three values {0}, {1}, and {2}. My favourite number is {2}'. format(*cleanData))
+print('The top three values {0}, {1}, and {2}. My Favourite number is {2}'. format(*cleanData))
