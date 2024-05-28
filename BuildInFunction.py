@@ -29,3 +29,24 @@ cleanData = sorted([abs(k) for k in [int(i) for i in data]])[2:][::-1]
 print(cleanData)
 print(sorted([abs(k) for k in [int(i) for i in data]])[2:][::-1])
 print('The top three values {0}, {1}, and {2}. My Favourite number is {2}'. format(*cleanData))
+
+calc = []
+n = range(1, rd.randint(1,20))
+print(n)
+print(range(len(n)))
+for i in range(len(n)):
+    if n[i] % 2 == 0 and n[i] > 10:
+        s = n[i]
+        calc.append(s)
+    else:
+        s = 0
+        calc.append(s)
+
+print(sum(calc))
+
+print(range(1, 10))
+print(len(range(1, 19)))
+
+nNum = range(len(range(1, 20)))
+for i in nNum:
+    print(i)
