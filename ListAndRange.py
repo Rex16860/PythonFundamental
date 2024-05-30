@@ -35,3 +35,34 @@ weapons[4].insert(len(weapons[4]) - 1, ["Hello"])
 print(weapons)
 
 print(weapons[4][3][0])
+
+mangas = ['Fire Punch', 'Good Bye Eri', 'Look Back']
+print('\n{0}, {1}, {2}'.format(mangas[0], mangas[1], mangas[2]))
+
+print(f'my favourite is {mangas[0]}')
+
+for manga in mangas:
+    if manga == 'Fire Punch':
+        print('\n' + manga + '(This is my favourite one)')
+    else:
+        print(manga)
+
+for i in range(len(mangas)):
+    if mangas[i] == 'Fire Punch':
+        print('\n' + mangas[i] + '(This is my favourite one)')
+    elif mangas[i] == mangas[len(mangas) - 1]:
+        print(mangas[i] + '\n')
+    else:
+        print(mangas[i])
+
+print(mangas)
+addList = input('Add manga list: ')
+
+if addList.title() in mangas:
+    print('The manga is already exist in your list')
+    var = False
+
+else:
+    print('added')
+    mangas.append(addList.title())
+    print(mangas)
