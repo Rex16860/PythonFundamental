@@ -55,6 +55,19 @@ for i in range(len(mangas)):
     else:
         print(mangas[i])
 
+mangas.append('Chainsawman')
+mangas.append('JJK')
+print(mangas)
+completed = []
+for i in range(len(mangas)):
+    if i > 2:
+        None
+    else:
+        completed.append(mangas.pop(i))
+
+print('completed: ')
+print(completed)
+print('\n')
 print(mangas)
 addList = input('Add manga list: ')
 
