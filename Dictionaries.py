@@ -54,9 +54,40 @@ users = {
     'name': 'Ren Enkardium',
     'username': 'Ren001',
     'email': 'EnkaRen001@gmail.com',
-    'phone': '+1919191'
+    'phone': '+1919191',
+    'address': {
+        'street': 'Kulas Light',
+        'suite': 'Apt. 556',
+        'city': 'Gwenborough',
+        'zipcode': '92998-3874',
+        'geo': {
+            'lat': '-37.3159',
+            'lng': '81.1496'
+        }
+    }
 }
 
 print(users)
 for k in users:
     print('{}: {}'.format(k, users[k]))
+
+print('\n')
+
+print(users['address'])
+print(users['address']['geo'])
+print(users['address']['geo']['lat'])
+print('\n')
+
+print(users)
+print(type(users))
+print('\n')
+
+print('\ndict to JSON')
+import json
+
+result = json.dumps(users)
+print(result)
+print(type(result))
+
+with open('result.json', 'w') as file:
+    json.dump(users, file)
