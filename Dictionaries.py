@@ -46,4 +46,17 @@ weapon2 = {
     'durability': 120
 }
 
-print(weapon2['name'])
+print(weapon2['name'] + '\n')
+
+# expand
+users = {
+    'id': 1,
+    'name': 'Ren Enkardium',
+    'username': 'Ren001',
+    'email': 'EnkaRen001@gmail.com',
+    'phone': '+1919191'
+}
+
+print(users)
+for k in users:
+    print('{}: {}'.format(k, users[k]))
